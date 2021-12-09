@@ -1,0 +1,85 @@
+.App {
+  font-family: "sans-serif";
+  text-align: center;
+}
+body {
+  font-size: medium;
+  line-height: 1.7em;
+  background-color: #f5cff2;
+}
+
+h2,
+h3 {
+  font-size: 150%;
+  background-color: #bb92b9;
+}
+header {
+  font-family: "impact";
+  text-align: center;
+  padding: 10px;
+  background-color: #d1a4b9;
+  margin: 10px 10px 0 10px; /* removes bottom margin which does not collapse with top border-spacing */
+  height: 108px;
+}
+nav {
+  background-color: #b36193;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 5px 0;
+}
+
+nav ul li {
+  padding: 5px 10px;
+  display: inline;
+}
+.table {
+  display: table;
+  border-spacing: 10px;
+}
+
+.row {
+  display: table-row;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: top;
+}
+.overlay {
+  background: rgba(0, 0, 0, 0);
+  transition: opacity 0.2s;
+}
+.overlay:hover {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+#side {
+  width: 30%;
+  padding: 0px;
+  background: #bb92b9;
+  margin: 10px 10px 10px 10px;
+}
+
+main {
+  background: #cca7ce;
+  font-size: 105%;
+  padding: 15px;
+  margin: 10px 10px 10px 10px;
+}
+
+.text {
+  font-size: 60%;
+}
+footer {
+  font-family: impact;
+  background-color: #976d95;
+  text-align: center;
+  padding: 5px;
+  margin: 5px 5px 5px 0px;
+  font-size: 90%;
+}
