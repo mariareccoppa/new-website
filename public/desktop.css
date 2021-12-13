@@ -1,0 +1,34 @@
+header,
+nav footer {
+  clear: both;
+}
+
+.column {
+  margin-right: 1.04%; /*10/960 * 100*/ /* common to both */
+}
+
+#visit {
+  width: 25%; /*240px/960;*/
+  /*float: left;*/
+}
+#points {
+  width: 25%; /*240px/960;*/
+  /*float: right;*/
+}
+
+#main {
+  margin: 10px 27.08% 0 26.04%;
+  width: 47.92%; /*460/960*/
+}
+
+.table {
+  display: table;
+}
+
+.row {
+  display: table-row;
+}
+
+.column {
+  display: table-cell;
+}

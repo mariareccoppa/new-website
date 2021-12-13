@@ -1,44 +1,45 @@
 .App {
-  font-family: "sans-serif";
+  font-family: "Tahoma", "Geneva", "sans-serif";
   text-align: center;
 }
 body {
+  font-family: "Tahoma", "Geneva", "sans-serif";
   font-size: medium;
   line-height: 1.7em;
+  background: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
   background-color: #f5cff2;
 }
 
-h2,
-h3 {
-  font-size: 150%;
-  background-color: #bb92b9;
-}
 header {
-  font-family: "impact";
+  font-family: "impact", "Times New Roman", "Serif";
   text-align: center;
-  padding: 10px;
+  padding: 30px;
+  background: url("https://www.transparenttextures.com/patterns/always-grey.png");
   background-color: #d1a4b9;
-  margin: 10px 10px 0 10px; /* removes bottom margin which does not collapse with top border-spacing */
-  height: 108px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 nav {
+  background: url("https://www.transparenttextures.com/patterns/always-grey.png");
   background-color: #b36193;
   position: sticky;
-  top: 0;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
 }
 
 nav ul {
   list-style-type: none;
-  padding: 5px 0;
+  padding: 12px;
 }
 
 nav ul li {
-  padding: 5px 10px;
+  padding: 10px;
   display: inline;
 }
 .table {
   display: table;
-  border-spacing: 10px;
+  border-spacing: 15px;
 }
 
 .row {
@@ -50,6 +51,7 @@ nav ul li {
   vertical-align: top;
 }
 .overlay {
+  text-align: center;
   background: rgba(0, 0, 0, 0);
   transition: opacity 0.2s;
 }
@@ -59,27 +61,50 @@ nav ul li {
 }
 
 #side {
-  width: 30%;
-  padding: 0px;
-  background: #bb92b9;
-  margin: 10px 10px 10px 10px;
-}
-
-main {
-  background: #cca7ce;
-  font-size: 105%;
+  width: 1%;
+  background: url("https://www.transparenttextures.com/patterns/always-grey.png");
+  background-color: #bb92b9;
   padding: 15px;
-  margin: 10px 10px 10px 10px;
 }
 
-.text {
-  font-size: 60%;
+#video {
+  text-align: center;
+}
+
+#main {
+  background: url("https://www.transparenttextures.com/patterns/always-grey.png");
+  background-color: #976d95;
+  font-size: 105%;
+  padding: 10px;
 }
 footer {
-  font-family: impact;
-  background-color: #976d95;
+  font-family: "Tahoma", "Geneva", "sans-serif";
+  background: url("https://www.transparenttextures.com/patterns/always-grey.png");
+  background-color: #bb92b9;
   text-align: center;
-  padding: 5px;
-  margin: 5px 5px 5px 0px;
-  font-size: 90%;
+  font-size: 60%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.drawing {
+  background-color: #af83ad;
+  padding: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.contact {
+  background: url("https://www.transparenttextures.com/patterns/always-grey.png");
+  background-color: #af83ad;
+  text-align: center;
+  padding: 20px;
+  margin-left: 500px;
+  margin-right: 500px;
+  font-size: 150%;
+}
+
+.border {
+  border: 5px double #252525;
 }
