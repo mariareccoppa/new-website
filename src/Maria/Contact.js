@@ -1,3 +1,4 @@
+import "./styles.css";
 function Contact() {
   return (
     <div>
@@ -17,15 +18,29 @@ function Contact() {
           </li>
         </ul>
       </nav>
-      <div class="contact">
+      <div id="contact">
         <p>Get in contact with me!</p>
-        <a
-          href="https://github.com/mariareccoppa"
-          rel="noreferrer"
-          target="_blank"
-        >
-          My GitHub
-        </a>
+        <p>
+          <a
+            href="https://github.com/mariareccoppa"
+            rel="noreferrer"
+            target="_blank"
+          >
+            My GitHub
+          </a>
+        </p>
+        <p>
+          <a href="mailto:mariareccoppa@gmail.com">My Email</a>
+        </p>
+        <p>
+          <a
+            href="https://twitter.com/MariaReccoppa"
+            rel="noreferrer"
+            target="_blank"
+          >
+            My Twitter
+          </a>
+        </p>
       </div>
     </div>
   );

@@ -4,42 +4,44 @@
 }
 body {
   font-family: "Tahoma", "Geneva", "sans-serif";
-  font-size: medium;
   line-height: 1.7em;
   background: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
   background-color: #f5cff2;
 }
 
 header {
-  font-family: "impact", "Times New Roman", "Serif";
+  font-family: "Courier New", "monospace";
   text-align: center;
-  padding: 30px;
+  padding: 3em;
   background: url("https://www.transparenttextures.com/patterns/always-grey.png");
   background-color: #d1a4b9;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 nav {
   background: url("https://www.transparenttextures.com/patterns/always-grey.png");
+  position: sticky;
+  top: 0;
   background-color: #b36193;
   position: sticky;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 1em;
+  margin-right: 1em;
   text-align: center;
 }
 
 nav ul {
   list-style-type: none;
-  padding: 12px;
+  padding: 1em;
 }
 
 nav ul li {
-  padding: 10px;
+  padding: 3em;
   display: inline;
 }
 .table {
   display: table;
-  border-spacing: 15px;
+  border-spacing: 0.5em;
+  margin-left: 0.5em;
 }
 
 .row {
@@ -61,30 +63,30 @@ nav ul li {
 }
 
 #side {
-  width: 1%;
   background: url("https://www.transparenttextures.com/patterns/always-grey.png");
   background-color: #bb92b9;
-  padding: 15px;
+  padding: 0.5em;
 }
 
 #video {
   text-align: center;
 }
 
-#main {
+main {
   background: url("https://www.transparenttextures.com/patterns/always-grey.png");
   background-color: #976d95;
-  font-size: 105%;
-  padding: 10px;
+  font-size: 1.1em;
+  padding: 1em;
+  margin-left: 0.5em;
 }
 footer {
   font-family: "Tahoma", "Geneva", "sans-serif";
   background: url("https://www.transparenttextures.com/patterns/always-grey.png");
   background-color: #bb92b9;
   text-align: center;
-  font-size: 60%;
-  margin-left: 15px;
-  margin-right: 15px;
+  font-size: 0.6em;
+  margin-left: 1.5em;
+  margin-right: 0.5em;
 }
 
 .drawing {
@@ -95,13 +97,13 @@ footer {
   text-align: center;
 }
 
-.contact {
+#contact {
   background: url("https://www.transparenttextures.com/patterns/always-grey.png");
   background-color: #af83ad;
   text-align: center;
-  padding: 20px;
   margin-left: 500px;
   margin-right: 500px;
+  padding: 20px;
   font-size: 150%;
 }
 

@@ -45,6 +45,7 @@ function Drawing() {
           Shimabukoro, Rikiya from the Japanese game <i>Yakuza 3</i>
         </figcaption>
       </div>
+      <div id="jimmy"> </div>
       <div class="drawing">
         <img
           class="border"

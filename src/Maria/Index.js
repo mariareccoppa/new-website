@@ -1,6 +1,7 @@
 import Molloy from "./Images/molloy.png";
 import helloKitty from "./Images/helloKitty.gif";
 import "./styles.css";
+import { HashLink } from "react-router-hash-link";
 function Index() {
   return (
     <div>
@@ -41,7 +42,7 @@ function Index() {
               />
             </div>
           </section>
-          <section id="main" class="table-cell">
+          <main>
             <h2>About me:</h2>
             <p>
               Hello! I am Maria. I am a Japanese 19 year old hoping to make an
@@ -51,10 +52,15 @@ function Index() {
             <h2> My hobbies include... </h2>
             <ul>
               <li> Playing video games </li>
-              <li> Coding </li>
+              <li> Watching TV </li>
               <li> Learning Japanese </li>
               <li> Animation </li>
-              <li> Drawing (make sure to check out my portfolio!)</li>
+              <li>
+                Drawing
+                <HashLink to="./Maria/Drawing.js#jimmy">
+                  (My favorite drawing i did!)
+                </HashLink>
+              </li>
             </ul>
             <h2> What are my favorite video game franchises? </h2>
             <ol>
@@ -62,7 +68,7 @@ function Index() {
               <li>Half-Life</li>
               <li> Mass Effect </li>
               <li> Grand Theft Auto </li>
-              <li> Mario </li>
+              <li> Halo </li>
               <li> Final Fantasy</li>
             </ol>
             <h2> What I'm working on... </h2>
@@ -91,7 +97,7 @@ function Index() {
               More personal goals include becoming fluent in Japanese, learning
               to draw better, and eating healthier!
             </p>
-          </section>
+          </main>
         </div>
       </div>
       <footer>
