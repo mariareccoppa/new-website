@@ -25,7 +25,13 @@ function Index() {
         <div class="row">
           <section id="side" class="table-cell">
             <p>
-              <img src={Molloy} alt="Molloy College logo" />
+              <img
+                src={Molloy}
+                class="thumbnail"
+                alt="Molloy College logo"
+                width="160px"
+                height="100px"
+              />
             </p>
             <p>Hover your mouse over Hello Kitty to make her dissapear!</p>
             <div class="overlay">
